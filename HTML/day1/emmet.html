@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice emmet</title>
+</head>
+<body>
+
+    h1>h2
+    <h1>
+        <h2></h2>
+    </h1>
+
+    ul#nav>li.item$*4>a{Item$}
+    <ul id="nav">
+        <li class="item1"><a href="">Item1</a></li>
+        <li class="item2"><a href="">Item2</a></li>
+        <li class="item3"><a href="">Item3</a></li>
+        <li class="item4"><a href="">Item4</a></li>
+    </ul>      
+
+    ul#
+    <ul id=""></ul>
+
+    ul#nav
+    <ul id="nav"></ul>
+
+    ul#nav>li.item$
+    <ul id="nav">
+        <li class="item$"></li>
+    </ul>
+
+    ul#nav>li.item$*4
+    <ul id="nav">
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+    </ul>
+
+    ul#nav>li.item$*4>a
+    <ul id="nav">
+        <li class="item1"><a href=""></a></li>
+        <li class="item2"><a href=""></a></li>
+        <li class="item3"><a href=""></a></li>
+        <li class="item4"><a href=""></a></li>
+    </ul>
+
+    ul#nav>li.item$*4>a{Item$}
+    <ul id="nav">
+        <li class="item1"><a href="">Item1</a></li>
+        <li class="item2"><a href="">Item2</a></li>
+        <li class="item3"><a href="">Item3</a></li>
+        <li class="item4"><a href="">Item4</a></li>
+    </ul>
+
+    div
+    <div></div>
+
+
+    Child: > You can use > operator to nest elements inside each other:
+    div>ul>li  
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    Sibling: +   Use + operator to place elements near each other, on the same level:
+
+    div+p+strong
+    <div></div>
+    <p></p>
+    <strong></strong>
+
+    div+p+bq
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    h1>mark
+    <h1>
+        <mark></mark>
+    </h1>
+
+    h{soy un titulo}
+    <h>soy un titulo</h>
+
+    p{soy un parrafo}
+    <p>soy un parrafo</p>
+
+    h1>mark{el texto}
+    <h1>
+        <mark>el texto</mark>
+    </h1>
+
+     ul>li*5
+     <ul>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+         <li></li>
+     </ul> 
+     
+     ul>li*5{Elemento}
+     <ul>
+         <li>Elemento</li>
+         <li>Elemento</li>
+         <li>Elemento</li>
+         <li>Elemento</li>
+         <li>Elemento</li>
+     </ul>
+
+     table>tr>td*3
+     <table>
+         <tr>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+     </table>
+
+     <table>
+         <tr>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+         <tr>
+             <td></td>
+             <td></td>
+             <td></td>
+         </tr>
+     </table>
+     
+</body>
+</html>

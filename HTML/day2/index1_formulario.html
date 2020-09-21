@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los ladronzuelos de bicicletas</title>
+</head>
+<body>
+    
+
+    <div tabindex="1"><h1>Los Ladronzuelos de Bicicletas</h1></div>
+        
+    
+    <form action="https://w3schools.com/action_page.php" method="GET">
+    
+    <fieldset>
+    <legend> Fecha y hora:</legend>
+
+    <label for="date">Fecha</label>
+    <input type=”date” id=”date” name=”date” autofocus required>
+
+    <label for="time">Hora</label>
+    <input type=”time” id=”time” name=”time” autofocus required>
+    </fieldset>
+
+    <fieldset>
+    <legend> Caracteristicas de la bicicleta :</legend><br>
+    
+    <label for="bikecolor">Color de la bicicleta:</label>
+    <input type="color" id="bikecolor" name="bikecolor" value=""><br><br>
+   
+    <label for="price">Rango de precios</label>
+    <input type="range" name="price" id="price" min="0" max="30000"><br><br> 
+
+<!--selector: solo te deja seleccionar una opción-->
+    <label for="bicicletas">Tipo de bicicleta:</label>
+    <select id="bicicletas" name="bicicletas">
+        <optgroup label="Paseo">
+            <option value="">Señorial</option>
+            <option value="">Anti-plebeyos</option>
+            <option value="">PorEncimaDelHombro</option>
+        </optgroup>
+        <optgroup label="Montaña">
+            <option value="">Gamusinosl</option>
+            <option value="">Hueleflores premium</option>
+            <option value="">Fango lover
+        <optgroup label="Carreras">
+            <option value="">Metroymedio</option>
+            <option value="">3 de la tarde. Fluorescente edition</option>
+            <option value="">Grupitors</optgroup>
+    </select><br><br>
+
+<!--selector multiple: te deja seleccionar varias checkbox-->
+    <label for="accesorios">Accesorios:</label><br>
+    
+    <label for="ruedines">Ruedines</label>
+    <input type="checkbox" name="ruedines" id="ruedines">
+    <label for="pegatinas">Pegatinas</label>
+    <input type="checkbox" name="pegatinas" id="pegatinas">
+    <label for="cestita">Cestita</label>
+    <input type="checkbox" name="cestita" id="cestita">
+    <label for="bomba_aire">Bomba de aire</label>
+    <input type="checkbox" name="bomba_aire" id="bomba_aire">
+    <label for="timbre">Timbre</label>
+    <input type="checkbox" name="timbre" id="timbre">
+    <label for="foco">Foco</label>
+    <input type="checkbox" name="foco" id="foco"><br><br>
+
+    <label for="marca">Marca:</label>
+    <input list="marca" name="marca">
+    <datalist id="marca">
+        <option value="specialized">specialized</option>
+        <option value="trek">trek</option>
+        <option value="merida">merida</option>
+        <option value="scott">scott</option>
+        <option value="giant">giant</option>
+        <option value="cube">cube</option>
+        <option value="lapierre">lapierre</option>
+        <option value="orbea">orbea</option>
+        <option value="cannondale">cannondale</option>
+        <option value="bmc">bmc</option>
+        <option value="canyon">canyon</option>
+        <option value="megamo">megamo</option>
+        <option value="pinarello">pinarello</option>
+        <option value="bianchi">bianchi</option>
+        <option value="bh">bh</option>
+        <option value="factor">factor</option>
+        <option value="ghost">ghost</option>
+        <option value="cervélo">cervélo</option>
+        <option value="argon">argon</option>
+    </datalist>
+
+    </fieldset>
+    
+    <input type="submit" value="Enviar">
+    <input type="reset">
+
+    </form>
+  
+</body>
+</html>

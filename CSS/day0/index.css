@@ -1,0 +1,12 @@
+/* selector {
+    regla: valor;
+}*/
+
+p{
+    color: red;
+    color:rgb(255, 0, 0);
+    color: #ff0000;
+
+    background-color: black;
+    font-family:cursive;
+}
